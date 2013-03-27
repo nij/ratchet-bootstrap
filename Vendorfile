@@ -1,0 +1,5 @@
+from 'https://github.com/maker/ratchet.git' do |checkout_location|
+  file 'source/javascripts/ratchet.js', 'dist/ratchet.js'
+  file 'source/stylesheets/ratchet.css', 'dist/ratchet.css'
+  folder 'source/images/touch-icons', 'dist/touch-icons'
+end
